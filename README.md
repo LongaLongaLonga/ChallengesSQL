@@ -2,13 +2,13 @@
 
 ## 1. Accessing the crime scene report
 
-SELECT \* FROM CRIME_SCENE_REPORT
+<p> SELECT \* FROM CRIME_SCENE_REPORT
 WHERE DATE = 20180115
 AND TYPE = "murder"
 AND CITY = "SQL City";
 
 Response: Security footage shows that there were 2 witnesses. The first witness lives at the last house on "Northwestern Dr".
-The second witness, named Annabel, lives somewhere on "Franklin Ave".
+The second witness, named Annabel, lives somewhere on "Franklin Ave". </p>
 
 ### 2. Accessing witness info
 
